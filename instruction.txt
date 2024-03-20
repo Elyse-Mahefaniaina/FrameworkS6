@@ -1,0 +1,4 @@
+generer projet framework
+	- mvn archetype:generate -DgroupId=com.example -DartifactId=my-webapp -DarchetypeArtifactId=maven-archetype-webapp -	DinteractiveMode=false
+	- mkdir my-webapp/src/main/java
+	- mkdir my-webapp/lib
